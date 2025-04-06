@@ -14,7 +14,7 @@ body {
     color: #2e2f42;
 }
 
-.nav a {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -32,9 +32,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: none;
 }
 
-.nav ul {
+nav ul {
     list-style: none;
 }
 
@@ -44,12 +45,12 @@ header a:focus {
     color: #404BBF
 }
 
-.nav ul li:first-child a:hover,
-.nav ul li:first-child a:focus {
+nav ul li:first-child a:hover,
+nav ul li:first-child a:focus {
     color: #404BBF;
 }
 
-.studio {
+.cap {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -58,25 +59,9 @@ header a:focus {
     color: #2e2f42;
 }
 
-.portfolio {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
 
-.contacts {
+.contact-info {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-header address a {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -85,25 +70,7 @@ header address a {
     text-decoration: none;
 }
 
-.mail {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.telefon {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contact-info ul {
+address ul {
     list-style: none;
 }
 
